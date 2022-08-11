@@ -37,6 +37,9 @@
           </div>
           <div>
             <button class="button-small">Get Started</button>
+            <div class="menu-btn">
+              <div class="menu-btn__burger"></div>
+            </div>
           </div>
         </nav>
       </section>
@@ -48,7 +51,34 @@
           </h1>
           <article>As a state of law maintaining juistise is that every citizen must pay attension to and we are here to uphold Justise for you</article>
         </div>
-        <img src="assets/law.jpg" alt="">     
+        <img class="bg" src="assets/law.jpg" alt="">     
       </section>
+
+      <section class="mob-nav" id="mobNav">
+        <ul class="mob-list">
+          <li>Home</li>
+          <li>Priceing</li>
+          <li>Contact</li>
+          <li>Terms & Conditions</li>
+          <button class="show">Get Started</button>
+        </ul>
+      </section>
+      <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobNav = document.getElementById("mobNav")
+        let menuOpen = false;
+        menuBtn.addEventListener('click', () => {
+          if(!menuOpen) {
+            menuBtn.classList.add('open');
+            mobNav.classList.add("remove")
+            menuOpen = true;
+          } else {
+            menuBtn.classList.remove('open');
+            mobNav.classList.remove("remove")
+            menuOpen = false;
+          }
+        });
+      </script>
+  
   </body>
 </html>
