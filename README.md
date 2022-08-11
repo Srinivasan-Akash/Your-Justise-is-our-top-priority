@@ -1,7 +1,7 @@
 # Your-Justise-is-our-top-priority [![Justise](https://img.shields.io/badge/Template-Project-red)](http://www.gnu.org/licenses/agpl-3.0) [![Template Project](https://img.shields.io/badge/Technologies%20-HTML%2FCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0)
 
 This is basically a one pager webpage for an imaginary company that provides juistise to thier customers. The project made in HTML/CSS.
-Hope you like my project !! And Note that I haven't made it responsive it only works in laptop screen if you are useing desktop please zomm in or out that might work .
+Hope you like my project !! And Note that I haven't made it responsive it only works in laptop screen if you are useing desktop please zomm in or out that might work . I have made it responsive in mobile devices 370px to 480px
 
 
 ## 🛠 Technologies Used
@@ -13,12 +13,16 @@ Hope you like my project !! And Note that I haven't made it responsive it only w
 
 ![My website](https://user-images.githubusercontent.com/108281031/180643453-fa5b37ea-a167-4efc-816a-8a005cc71e9f.png)
 
+https://user-images.githubusercontent.com/108281031/184158142-2db482a7-f7ae-48f5-815f-02fad0d225a5.mp4
+
+
 ## Run Locally
 
 Clone the project
 
 ```bash
   git clone https://github.com/Srinivasan-Akash/Your-Justise-is-our-top-priority.git
+  
 ```
 
 Go to the project directory
@@ -37,6 +41,7 @@ Go to the project directory
 
 - Modern Typical webpage design
 - UI/UX Design
+- Mobile Responsive
 - One Pager Website
 
 ## What i have learnt By working on this project
